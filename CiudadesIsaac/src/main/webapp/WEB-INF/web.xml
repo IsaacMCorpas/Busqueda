@@ -1,0 +1,14 @@
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>ServletBusqueda</servlet-name>
+  	<display-name>ServletBusqueda</display-name>
+  	<description></description>
+  	<servlet-class>com.isaac.controllers.ServletBusqueda</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ServletBusqueda</servlet-name>
+  	<url-pattern>/ServletBusqueda</url-pattern>
+  </servlet-mapping>
+</web-app>
